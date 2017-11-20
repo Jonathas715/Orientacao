@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Cegonha</title>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <link rel="stylesheet" href="_css/form.css"/>
+</head>
+<body>
+<div id="interface">
+
+    <header id="cabecalho">
+        <hgroup>
+            <h1>II Prova da Cegonha RN</h1>
+            <h2>Gerlane Nomizo e Daniel Nomizo</h2>
+        </hgroup>
+
+        <img id="helga" src="_imagens/helga.jpg"/>
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="boletim.html">Boletim</a></li>
+                <li><a href="novo.html">novo</a></li>
+                <li><a href="inscricoes.html">Inscrições</a></li>
+                <li><a href="fotos.html">Fotos</a></li>
+                <li><a href="fale-conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="corpo-full">
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3>Orientação > Novo</h3>
+                    <h1>Percursos</h1>
+                    <h2>por Jonathas Souza</h2>
+                    <h3 class="direita">Atualizado em 26/Outubro/2017</h3>
+                </hgroup>
+            </header>
+            <form>
+                <fieldset id="usuario">
+                    <legend>Identificação do Usuário</legend>
+                    <p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="30" maxlength="40" placeholder="Nome Completo"/></p>
+                    <p><label for="cSenha">Senha:</label><input type="password" name="t\Senha" id="cSenha" size="8" maxlength="8" placeholder="8 digitos"/></p>
+                    <p><label for="cMail">E-mail:</label><input type="email" name="tMail" id="cMail" size="20" maxlength="40"/></p>
+                    <fieldset id="sexo"><legend>Sexo:</legend>
+                        <input type="radio" name="tSexo" id="cMas"/> <label for="cMas">Masculino</label></br>
+                        <input type="radio" name="tSexo" id="cFem"/> <label for="cFem">Feminino</label>
+                    </fieldset>
+                    <p><label for="cNasc">Data de Nascimento:</label><input type="date" name="tNasc" id="cNasc"</p>
+             </fieldset>
+                <fieldset id=endereco>
+                    <legend>Endereço do Usuário</legend>
+                    <p>Logradouro: <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua"></p>
+                    <p>Número:<input type="number" name="tNum" id="cNum" min="0" max="99999"></p>
+    Estado:
+    Cidade:
+                </fieldset>
+                <fieldset id=mensagem>
+                    <legend>Mensagem do Usuário</legend>
+    Grau de Urgência:
+    Mensagem:
+                </fieldset>
+                <fieldset id="pedido">
+                    <legend>Quero um Google Glass</legend>
+    Gostaria de adquirir um Google Glass quando disponível
+    Cor:
+    Quantidade:
+    Preço Total: R$
+
+
+[BOTÃO ENVIAR]
+                </fieldset>
+            </form>
+
+    </section>
+
+    <footer id="rodape">
+        <p>Copyright &copy; 2017 - by Jonathas Souza
+            <br/><a href="https://www.facebook.com/orientacaopotiguar/?ref=br_rs" target="_blank">Facebook</a> | <a href="https://www.instagram.com/orientacaopotiguar/" target="_blank">Instagram</a></p>
+    </footer>
+</div>
+</body>
+</html>

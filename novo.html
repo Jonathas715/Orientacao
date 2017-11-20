@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Cegonha</title>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <link rel="stylesheet" href="_css/specs.css"/>
+</head>
+<body>
+<div id="interface">
+
+    <header id="cabecalho">
+        <hgroup>
+            <h1>II Prova da Cegonha RN</h1>
+            <h2>Gerlane Nomizo e Daniel Nomizo</h2>
+        </hgroup>
+
+        <img id="helga" src="_imagens/helga.jpg"/>
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="boletim.html">Boletim</a></li>
+                <li><a href="novo.html">novo</a></li>
+                <li><a href="inscricoes.html">Inscrições</a></li>
+                <li><a href="fotos.html">Fotos</a></li>
+                <li><a href="fale-conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="corpo-full">
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3>Orientação > Novo</h3>
+                    <h1>Percursos</h1>
+                    <h2>por Jonathas Souza</h2>
+                    <h3 class="direita">Atualizado em 26/Outubro/2017</h3>
+                </hgroup>
+            </header>
+
+       <p> Acompanhe o percurso no mapa e descubra como funciona a Orientação e sua caracteristica durante a iniciação de uma prova.</p>
+
+         <section id="conteudo">
+             <img src="_imagens/depressão.png" usemap="#meumapa"/>
+             <map name="meumapa">
+              <area shape="circle" coords="245,513,27" href="prisma.html#tela" target="janela"/>
+                 <area shape="circle" coords="555,557,27" href="prisma.html#camera" target="janela"/>
+                 <area shape="circle" coords="527,379,27" href="prisma.html#sensores" target="janela"/>
+                 <area shape="poly" coords="184,380,140,350,189,329" href="prisma.html#bateria" target="janela"/>
+             </map>
+             <iframe src="prisma.html" name="janela" id="frame-spec"></iframe>
+         </section>
+        </article>
+    </section>
+
+    <footer id="rodape">
+        <p>Copyright &copy; 2017 - by Jonathas Souza
+            <br/><a href="https://www.facebook.com/orientacaopotiguar/?ref=br_rs" target="_blank">Facebook</a> | <a href="https://www.instagram.com/orientacaopotiguar/" target="_blank">Instagram</a></p>
+    </footer>
+</div>
+</body>
+</html>
